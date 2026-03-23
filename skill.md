@@ -376,7 +376,38 @@ vault/
 
 Ask if they want `@people/` for contacts, `meetings/` for transcripts, etc.
 
-**Action:** Create the chosen folder structure with placeholder notes.
+**Action: Create the full folder structure.** Don't just create top-level PARA/ACE folders -- populate them with subfolders from the user's actual projects and areas discovered in Steps 1.3-1.4.
+
+For example, if a PARA user listed projects "AI Workshop", "Lido", "English" and areas "Mental Health", "Finance", create:
+
+```
+vault/
+├── _inbox/
+├── Projects/
+│   ├── AI Workshop/
+│   ├── Lido/
+│   └── English/
+├── Areas/
+│   ├── Mental Health/
+│   │   └── Daily/          (if they have daily notes)
+│   └── Finance/
+├── Resources/
+├── Archives/
+├── Templates/
+└── Attachments/
+```
+
+For each project subfolder, create a placeholder `Agents.md` with the project name and code:
+```markdown
+# [Project Name]
+
+Project code: `{project_code}`
+
+## Context
+[To be filled]
+```
+
+This gives the user a vault that's ready to use immediately, not an empty shell they have to organize themselves.
 
 ### Step 3.2: Attachment Management
 
