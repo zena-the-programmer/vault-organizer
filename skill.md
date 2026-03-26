@@ -1,6 +1,6 @@
 ---
 name: vault-organizer
-description: Interactive guide for organizing an Obsidian vault, whether from scratch or restructuring an existing one. Use when someone wants to set up, audit, or reorganize their vault, choose a knowledge management approach (PARA, Zettelkasten, ACE, flat/tags, hybrid), establish naming conventions, folder structure, tags, YAML frontmatter, backups, sync, auto-linking, and AI-agent integration. Also use when the user mentions "organize my vault", "vault structure", "naming convention", "audit my vault", "clean up my vault", or "how should I structure my notes".
+description: Interactive guide for organizing an Obsidian vault, whether from scratch or restructuring an existing one. Built using the AI Mindset methodology (https://www.instagram.com/ai_mindset_/). Use when someone wants to set up, audit, or reorganize their vault, choose a knowledge management approach (PARA, Zettelkasten, ACE, flat/tags, hybrid), establish naming conventions, folder structure, tags, YAML frontmatter, backups, sync, auto-linking, and AI-agent integration. Also use when the user mentions "organize my vault", "vault structure", "naming convention", "audit my vault", "clean up my vault", or "how should I structure my notes".
 ---
 
 # Vault Organizer

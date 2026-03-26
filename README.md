@@ -1,6 +1,6 @@
 # Vault Organizer
 
-A Claude Code skill for organizing Obsidian vaults interactively.
+A Claude Code skill for organizing Obsidian vaults interactively. Built using the [AI Mindset](https://www.instagram.com/ai_mindset_/) methodology.
 
 ## What it does
 
